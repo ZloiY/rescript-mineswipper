@@ -1,0 +1,22 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start-res": "rescript build -w",
+    "start": "wds --open --watch --node-resolve --app-index='src/index.html'"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rescript": "*",
+    "rescript-webapi": "^0.3.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.29"
+  }
+}
