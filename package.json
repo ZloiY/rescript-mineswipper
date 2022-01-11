@@ -5,7 +5,7 @@
     "build": "rescript",
     "clean": "rescript clean -with-deps",
     "start-res": "rescript build -w",
-    "start": "wds --open --watch --node-resolve --app-index='src/index.html'"
+    "start": "wds --open --watch --node-resolve --app-index='index.html'"
   },
   "keywords": [
     "rescript"
