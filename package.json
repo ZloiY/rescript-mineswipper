@@ -17,6 +17,8 @@
     "rescript-webapi": "^0.3.2"
   },
   "devDependencies": {
-    "@web/dev-server": "^0.1.29"
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@web/dev-server": "^0.1.29",
+    "rollup": "^2.67.0"
   }
 }
